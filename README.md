@@ -80,32 +80,5 @@ insert into student (email, full_name, rfid_card_id, class_id) values ('adasdasd
 2. Use IntelliJ's **Run/Debug Configuration** to start the application.
 3. Access the application via the specified URL in your browser or API testing tool.
 
----
 
-## Application Features
-
-1. **Automated Attendance Tracking**
-2. **User-Friendly Interface**
-3. **Database Integration with Docker**
-4. **Customizable Configuration**
-
----
-
-## Troubleshooting
-
-- If Docker fails to start, verify that Docker Desktop is running and restart IntelliJ IDEA.
-- Ensure all required ports in `docker-compose.yml` are available and not in use by other services.
-- Check for dependency conflicts in the `pom.xml` or `build.gradle` file.
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
----
-
-## License
-
-This project is licensed under the MIT License.
 
