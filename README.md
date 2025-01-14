@@ -75,7 +75,16 @@ insert into student (email, full_name, rfid_card_id, class_id) values ('cdadsada
 insert into student (email, full_name, rfid_card_id, class_id) values ('adasdasdadasdasdas', 'Vasile Cenusa', '07 79 8e 02', 2);
 ```
 
-### 8. Run the Application
+### 8. View Attendance Records
+1. Open the **Database** tab in IntelliJ IDEA.
+2. Locate your database connection and open the **Console**.
+3. Run the following SQL command to view attendance records:
+
+```sql
+select * from attendance;
+```
+
+### 9. Run the Application
 1. Ensure that all Docker containers are running.
 2. Use IntelliJ's **Run/Debug Configuration** to start the application.
 3. Access the application via the specified URL in your browser or API testing tool.
