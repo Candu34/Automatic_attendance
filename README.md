@@ -52,7 +52,30 @@ cd Automatic_attendance
    - Password: `<DB Password>`
 4. Test the connection and save it.
 
-### 7. Run the Application
+### 7. Insert Data into the Database
+1. Open the **Database** tab in IntelliJ IDEA.
+2. Locate your database connection and open the **Console**.
+3. Run the following SQL commands to populate the database:
+
+```sql
+insert into student_class (name) values ('4LF711');
+insert into student_class (name) values ('123');
+insert into student_class (name) values ('122');
+
+insert into student (email, full_name, rfid_card_id, class_id) values ('liviubelu@student.unitbv.ro', 'Liviu Belu', 'F9 B0 07 E5', 2);
+insert into student (email, full_name, rfid_card_id, class_id) values ('brujbeanugabriel@student.unitbv.ro', 'Brujbeanu Gabriel', '13 E1 54 CD', 2);
+insert into student (email, full_name, rfid_card_id, class_id) values ('canduion@student.unitbv.ro', 'Candu Ion', 'b3 78 cc 2c', 3);
+insert into student (email, full_name, rfid_card_id, class_id) values ('vasilecenusa@student.unitbv.ro', 'Vasile Cenusa', '07 79 8e 02', 3);
+
+delete from student where id > 1;
+
+insert into student (email, full_name, rfid_card_id, class_id) values ('kjkdadsadad', 'Test test', 'F9 B0 07 E5', 2); 
+insert into student (email, full_name, rfid_card_id, class_id) values ('adsadasdad', 'Test2', '13 E1 54 CD', 2); 
+insert into student (email, full_name, rfid_card_id, class_id) values ('cdadsadadada', 'Test1 test1', 'b3 78 cc 2c', 2); 
+insert into student (email, full_name, rfid_card_id, class_id) values ('adasdasdadasdasdas', 'Vasile Cenusa', '07 79 8e 02', 2);
+```
+
+### 8. Run the Application
 1. Ensure that all Docker containers are running.
 2. Use IntelliJ's **Run/Debug Configuration** to start the application.
 3. Access the application via the specified URL in your browser or API testing tool.
