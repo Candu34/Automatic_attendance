@@ -67,8 +67,6 @@ insert into student (email, full_name, rfid_card_id, class_id) values ('brujbean
 insert into student (email, full_name, rfid_card_id, class_id) values ('canduion@student.unitbv.ro', 'Candu Ion', 'b3 78 cc 2c', 3);
 insert into student (email, full_name, rfid_card_id, class_id) values ('vasilecenusa@student.unitbv.ro', 'Vasile Cenusa', '07 79 8e 02', 3);
 
-delete from student where id > 1;
-
 insert into student (email, full_name, rfid_card_id, class_id) values ('kjkdadsadad', 'Test test', 'F9 B0 07 E5', 2); 
 insert into student (email, full_name, rfid_card_id, class_id) values ('adsadasdad', 'Test2', '13 E1 54 CD', 2); 
 insert into student (email, full_name, rfid_card_id, class_id) values ('cdadsadadada', 'Test1 test1', 'b3 78 cc 2c', 2); 
